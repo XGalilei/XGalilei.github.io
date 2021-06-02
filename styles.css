@@ -2,6 +2,32 @@ h1 {
   text-align: center;
 }
 
+body {
+  /*background-color: black;
+  color: white;
+  */
+}
+
+
+.tab {
+  border: none;
+  padding: 10px;
+  transition: 0.6s;
+  width: 100%;
+  background-color: #ddd;
+}
+
+.active, .tab:hover {
+  background-color: #bbb;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+}
+
 h4 {
   color: grey;
 }
